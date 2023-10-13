@@ -21,7 +21,7 @@ def write_to_file(filename, message):
 
 def read_from_file(filename):
     """
-    Read the contents of a file.
+    Read the contents of a file...
 
     Args:
         filename (str): The name of the file to read.
