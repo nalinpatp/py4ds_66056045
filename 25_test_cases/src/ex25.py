@@ -27,7 +27,7 @@ def multiplication_table(start,end=11):
         None: This function does not return anything.
     """
     print('  | 1  2  3  4  5  6  7  8  9 10')
-    print('--+------------------------------')
+    print('--+------------------------------ ')
     # TODO : complete this
     for i in range(start,end):
         print(i, '|', end=' ')
