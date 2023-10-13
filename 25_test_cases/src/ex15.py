@@ -3,7 +3,7 @@ Exercise 15
 """
 
 
-def median(params):
+def median(num_list):
     """
     Calculate the median of a list of numbers.
 
@@ -13,4 +13,14 @@ def median(params):
     Returns:
         [int, None]: The median value of the list, or None if the list is empty.
     """
-    pass
+    position=(len(num_list)+1)/2
+    if len(num_list)==0:
+        return None
+    else:
+        sorted(num_list)
+        if len(num_list)%2!=0:
+            Med=num_list[position-1]
+        else:
+            Med=(num_list[(len(num_list)+1)/2+0.5]+num_list[(len(num_list)+1)/2+0.5])/2
+        return Med
+
