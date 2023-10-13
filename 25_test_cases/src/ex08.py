@@ -3,7 +3,7 @@ Execise 8
 """
 
 
-def write_to_file(param, param1):
+def write_to_file(filename, message):
     """
     Write the given message to a file with the provided filename.
 
@@ -14,11 +14,12 @@ def write_to_file(param, param1):
     Returns:
         None
     """
-    # TODO : complete this
-    pass
+    # Fix : complete this
+    with open(filename,'w') as file:
+        file.write(message)
 
 
-def read_from_file(param):
+def read_from_file(filename):
     """
     Read the contents of a file.
 
@@ -28,11 +29,13 @@ def read_from_file(param):
     Returns:
         str: The contents of the file.
     """
-    # TODO : complete this
-    pass
+    # Fix : complete this
+    with open(filename,'r') as file:
+        content = file.read()
+    return content
 
 
-def append_to_file(param, param1):
+def append_to_file(filename, message):
     """
     Append the given message to the end of the specified file.
 
@@ -43,5 +46,6 @@ def append_to_file(param, param1):
     Returns:
         None: This function does not return anything.
     """
-    # TODO : complete this
-    pass
+    # Fix : complete this
+    with open(filename, 'a') as file:
+        file.write(message)
