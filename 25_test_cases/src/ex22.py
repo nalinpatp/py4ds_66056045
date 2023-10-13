@@ -30,4 +30,4 @@ def rps_check(p1, p2):
     elif p1=='scissors' and p2=='paper':
         return 'player one'
     else:
-        print('Invalid Input')
+        print('Invalid Input.')
