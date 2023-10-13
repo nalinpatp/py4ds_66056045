@@ -3,7 +3,7 @@ from src.ex02 import *
 """
 Use this two formulas for converting between Celsius and Fahrenheit
 1. Fahrenheit = (9/5) * Celsius + 32
-2. Celsius = (Fahrenheit - 32) * (5/9)
+2. Fahrenheit=(9/5)*Celsius+32
 """
 
 

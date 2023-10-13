@@ -14,11 +14,12 @@ def area(param1, param2):
     Returns:
         float: The area of the rectangle.
     """
-    # TODO : complete this
-    pass
+    # Fix : complete this
+    area=param1*param2
+    return area
 
 
-def perimetero(param1, param2):
+def perimeter(param1, param2):
     """
     Calculate the perimeter of a rectangle.
 
@@ -29,8 +30,9 @@ def perimetero(param1, param2):
     Returns:
         float: The perimeter of the rectangle.
     """
-    # TODO : complete this
-    pass
+    # Fix : complete this
+    perimeter=2*(param1+param2)
+    return perimeter
 
 
 def volume(param1, param2, param3):
@@ -45,8 +47,9 @@ def volume(param1, param2, param3):
     Returns:
         float: The volume of the object.
     """
-    # TODO : complete this
-    pass
+    # Fix : complete this
+    volume=param1*param2*param3
+    return volume
 
 
 def surface_area(param1, param2, param3):
@@ -61,5 +64,6 @@ def surface_area(param1, param2, param3):
     Returns:
         float: The total surface area of the rectangular prism.
     """
-    # TODO : complete this
-    pass
+    # Fix : complete this
+    surface=(param1*param2+param2*param3+param3*param1)*2
+    return surface
